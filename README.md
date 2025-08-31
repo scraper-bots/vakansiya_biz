@@ -142,3 +142,4 @@ The scraper includes built-in rate limiting:
 - All contact information and detailed data is extracted from the HTML structure
 - Error handling ensures the scraper continues even if individual pages fail
 - **Proven at scale**: Successfully scraped all 709 candidates with comprehensive data
+- **Production files**: `full_candidates.json` and `full_candidates.csv` contain the complete dataset
