@@ -1,0 +1,197 @@
+2025-08-31 05:38:45,257 - INFO - Fetching API pages 2-6...
+2025-08-31 05:38:47,398 - INFO - Fetching API pages 7-11...
+2025-08-31 05:38:48,722 - INFO - Fetching API pages 12-16...
+2025-08-31 05:38:50,040 - INFO - Fetching API pages 17-21...
+2025-08-31 05:38:51,453 - INFO - Fetching API pages 22-26...
+2025-08-31 05:38:52,767 - INFO - Fetching API pages 27-31...
+2025-08-31 05:38:54,105 - INFO - Fetching API pages 32-36...
+2025-08-31 05:38:55,410 - INFO - Total candidates fetched from API: 709
+2025-08-31 05:38:55,410 - INFO - Starting comprehensive scraping for 3 candidates...
+2025-08-31 05:38:55,410 - INFO - Processing comprehensive batch 1/1
+2025-08-31 05:38:58,087 - INFO - Comprehensive scraping completed in 13.28 seconds
+2025-08-31 05:38:58,088 - INFO - Average time per candidate: 4.43 seconds
+2025-08-31 05:38:58,090 - INFO - Saved 3 comprehensive candidates to test_comprehensive_candidates.json
+2025-08-31 05:38:58,104 - INFO - Saved 3 candidates to test_comprehensive_candidates.csv
+2025-08-31 05:40:26,370 - INFO - Fetching API pages 2-6...
+2025-08-31 05:40:27,960 - INFO - Fetching API pages 7-11...
+2025-08-31 05:40:29,340 - INFO - Fetching API pages 12-16...
+2025-08-31 05:40:30,608 - INFO - Fetching API pages 17-21...
+2025-08-31 05:40:31,987 - INFO - Fetching API pages 22-26...
+2025-08-31 05:40:33,374 - INFO - Fetching API pages 27-31...
+2025-08-31 05:40:34,629 - INFO - Fetching API pages 32-36...
+2025-08-31 05:40:35,924 - INFO - Total candidates fetched from API: 709
+2025-08-31 05:40:35,926 - INFO - Starting comprehensive scraping for 5 candidates...
+2025-08-31 05:40:35,926 - INFO - Processing comprehensive batch 1/1
+2025-08-31 05:40:38,587 - INFO - Comprehensive scraping completed in 12.66 seconds
+2025-08-31 05:40:38,587 - INFO - Average time per candidate: 2.53 seconds
+2025-08-31 05:40:38,590 - INFO - Saved 5 comprehensive candidates to test_comprehensive_candidates.json
+2025-08-31 05:40:38,606 - INFO - Saved 5 candidates to test_comprehensive_candidates.csv
+2025-08-31 05:42:39,692 - INFO - Fetching API pages 2-6...
+2025-08-31 05:42:41,259 - INFO - Fetching API pages 7-11...
+2025-08-31 05:42:42,550 - INFO - Fetching API pages 12-16...
+2025-08-31 05:42:43,824 - INFO - Fetching API pages 17-21...
+2025-08-31 05:42:45,082 - INFO - Fetching API pages 22-26...
+2025-08-31 05:42:46,900 - INFO - Fetching API pages 27-31...
+2025-08-31 05:42:48,174 - INFO - Fetching API pages 32-36...
+2025-08-31 05:42:49,664 - INFO - Total candidates fetched from API: 709
+2025-08-31 05:42:49,665 - INFO - Starting comprehensive scraping for 5 candidates...
+2025-08-31 05:42:49,666 - INFO - Processing comprehensive batch 1/1
+2025-08-31 05:42:52,336 - INFO - Comprehensive scraping completed in 13.53 seconds
+2025-08-31 05:42:52,336 - INFO - Average time per candidate: 2.71 seconds
+2025-08-31 05:42:52,337 - INFO - Saved 5 comprehensive candidates to test_candidates.json
+2025-08-31 05:42:52,345 - INFO - Saved 5 candidates to test_candidates.csv
+2025-08-31 05:46:11,444 - INFO - Fetching API pages 2-6...
+2025-08-31 05:46:12,977 - INFO - Fetching API pages 7-11...
+2025-08-31 05:46:14,914 - INFO - Fetching API pages 12-16...
+2025-08-31 05:46:16,307 - INFO - Fetching API pages 17-21...
+2025-08-31 05:46:17,574 - INFO - Fetching API pages 22-26...
+2025-08-31 05:46:18,886 - INFO - Fetching API pages 27-31...
+2025-08-31 05:46:20,149 - INFO - Fetching API pages 32-36...
+2025-08-31 05:46:21,468 - INFO - Total candidates fetched from API: 709
+2025-08-31 05:46:21,469 - INFO - Starting comprehensive scraping for 709 candidates...
+2025-08-31 05:46:21,471 - INFO - Processing comprehensive batch 1/142
+2025-08-31 05:46:24,061 - INFO - Processing comprehensive batch 2/142
+2025-08-31 05:46:26,547 - INFO - Processing comprehensive batch 3/142
+2025-08-31 05:46:28,950 - INFO - Processing comprehensive batch 4/142
+2025-08-31 05:46:31,341 - INFO - Processing comprehensive batch 5/142
+2025-08-31 05:46:33,736 - INFO - Processing comprehensive batch 6/142
+2025-08-31 05:46:36,149 - INFO - Processing comprehensive batch 7/142
+2025-08-31 05:46:38,603 - INFO - Processing comprehensive batch 8/142
+2025-08-31 05:46:41,064 - INFO - Processing comprehensive batch 9/142
+2025-08-31 05:46:43,492 - INFO - Processing comprehensive batch 10/142
+2025-08-31 05:46:45,882 - INFO - Processing comprehensive batch 11/142
+2025-08-31 05:46:48,346 - INFO - Processing comprehensive batch 12/142
+2025-08-31 05:46:50,764 - INFO - Processing comprehensive batch 13/142
+2025-08-31 05:46:53,173 - INFO - Processing comprehensive batch 14/142
+2025-08-31 05:46:55,678 - INFO - Processing comprehensive batch 15/142
+2025-08-31 05:46:58,093 - INFO - Processing comprehensive batch 16/142
+2025-08-31 05:47:00,547 - INFO - Processing comprehensive batch 17/142
+2025-08-31 05:47:03,054 - INFO - Processing comprehensive batch 18/142
+2025-08-31 05:47:05,437 - INFO - Processing comprehensive batch 19/142
+2025-08-31 05:47:07,897 - INFO - Processing comprehensive batch 20/142
+2025-08-31 05:47:10,360 - INFO - Processing comprehensive batch 21/142
+2025-08-31 05:47:12,840 - INFO - Processing comprehensive batch 22/142
+2025-08-31 05:47:15,231 - INFO - Processing comprehensive batch 23/142
+2025-08-31 05:47:17,694 - INFO - Processing comprehensive batch 24/142
+2025-08-31 05:47:20,112 - INFO - Processing comprehensive batch 25/142
+2025-08-31 05:47:22,543 - INFO - Processing comprehensive batch 26/142
+2025-08-31 05:47:25,063 - INFO - Processing comprehensive batch 27/142
+2025-08-31 05:47:27,492 - INFO - Processing comprehensive batch 28/142
+2025-08-31 05:47:29,887 - INFO - Processing comprehensive batch 29/142
+2025-08-31 05:47:32,288 - INFO - Processing comprehensive batch 30/142
+2025-08-31 05:47:34,680 - INFO - Processing comprehensive batch 31/142
+2025-08-31 05:47:37,070 - INFO - Processing comprehensive batch 32/142
+2025-08-31 05:47:39,462 - INFO - Processing comprehensive batch 33/142
+2025-08-31 05:47:41,900 - INFO - Processing comprehensive batch 34/142
+2025-08-31 05:47:44,294 - INFO - Processing comprehensive batch 35/142
+2025-08-31 05:47:46,685 - INFO - Processing comprehensive batch 36/142
+2025-08-31 05:47:49,071 - INFO - Processing comprehensive batch 37/142
+2025-08-31 05:47:51,486 - INFO - Processing comprehensive batch 38/142
+2025-08-31 05:47:53,871 - INFO - Processing comprehensive batch 39/142
+2025-08-31 05:47:56,281 - INFO - Processing comprehensive batch 40/142
+2025-08-31 05:47:58,690 - INFO - Processing comprehensive batch 41/142
+2025-08-31 05:48:01,107 - INFO - Processing comprehensive batch 42/142
+2025-08-31 05:48:03,512 - INFO - Processing comprehensive batch 43/142
+2025-08-31 05:48:05,908 - INFO - Processing comprehensive batch 44/142
+2025-08-31 05:48:08,304 - INFO - Processing comprehensive batch 45/142
+2025-08-31 05:48:10,697 - INFO - Processing comprehensive batch 46/142
+2025-08-31 05:48:13,107 - INFO - Processing comprehensive batch 47/142
+2025-08-31 05:48:15,501 - INFO - Processing comprehensive batch 48/142
+2025-08-31 05:48:17,904 - INFO - Processing comprehensive batch 49/142
+2025-08-31 05:48:20,295 - INFO - Processing comprehensive batch 50/142
+2025-08-31 05:48:22,681 - INFO - Processing comprehensive batch 51/142
+2025-08-31 05:48:25,076 - INFO - Processing comprehensive batch 52/142
+2025-08-31 05:48:27,506 - INFO - Processing comprehensive batch 53/142
+2025-08-31 05:48:29,921 - INFO - Processing comprehensive batch 54/142
+2025-08-31 05:48:32,321 - INFO - Processing comprehensive batch 55/142
+2025-08-31 05:48:34,714 - INFO - Processing comprehensive batch 56/142
+2025-08-31 05:48:37,098 - INFO - Processing comprehensive batch 57/142
+2025-08-31 05:48:39,508 - INFO - Processing comprehensive batch 58/142
+2025-08-31 05:48:41,894 - INFO - Processing comprehensive batch 59/142
+2025-08-31 05:48:44,319 - INFO - Processing comprehensive batch 60/142
+2025-08-31 05:48:46,724 - INFO - Processing comprehensive batch 61/142
+2025-08-31 05:48:49,136 - INFO - Processing comprehensive batch 62/142
+2025-08-31 05:48:51,552 - INFO - Processing comprehensive batch 63/142
+2025-08-31 05:48:53,947 - INFO - Processing comprehensive batch 64/142
+2025-08-31 05:48:56,349 - INFO - Processing comprehensive batch 65/142
+2025-08-31 05:48:58,759 - INFO - Processing comprehensive batch 66/142
+2025-08-31 05:49:01,142 - INFO - Processing comprehensive batch 67/142
+2025-08-31 05:49:03,547 - INFO - Processing comprehensive batch 68/142
+2025-08-31 05:49:05,954 - INFO - Processing comprehensive batch 69/142
+2025-08-31 05:49:08,349 - INFO - Processing comprehensive batch 70/142
+2025-08-31 05:49:10,800 - INFO - Processing comprehensive batch 71/142
+2025-08-31 05:49:13,205 - INFO - Processing comprehensive batch 72/142
+2025-08-31 05:49:15,594 - INFO - Processing comprehensive batch 73/142
+2025-08-31 05:49:17,982 - INFO - Processing comprehensive batch 74/142
+2025-08-31 05:49:20,374 - INFO - Processing comprehensive batch 75/142
+2025-08-31 05:49:22,772 - INFO - Processing comprehensive batch 76/142
+2025-08-31 05:49:25,175 - INFO - Processing comprehensive batch 77/142
+2025-08-31 05:49:27,567 - INFO - Processing comprehensive batch 78/142
+2025-08-31 05:49:29,972 - INFO - Processing comprehensive batch 79/142
+2025-08-31 05:49:32,368 - INFO - Processing comprehensive batch 80/142
+2025-08-31 05:49:34,760 - INFO - Processing comprehensive batch 81/142
+2025-08-31 05:49:37,169 - INFO - Processing comprehensive batch 82/142
+2025-08-31 05:49:39,597 - INFO - Processing comprehensive batch 83/142
+2025-08-31 05:49:42,026 - INFO - Processing comprehensive batch 84/142
+2025-08-31 05:49:44,443 - INFO - Processing comprehensive batch 85/142
+2025-08-31 05:49:46,864 - INFO - Processing comprehensive batch 86/142
+2025-08-31 05:49:49,249 - INFO - Processing comprehensive batch 87/142
+2025-08-31 05:49:51,652 - INFO - Processing comprehensive batch 88/142
+2025-08-31 05:49:54,054 - INFO - Processing comprehensive batch 89/142
+2025-08-31 05:49:56,464 - INFO - Processing comprehensive batch 90/142
+2025-08-31 05:49:58,860 - INFO - Processing comprehensive batch 91/142
+2025-08-31 05:50:01,274 - INFO - Processing comprehensive batch 92/142
+2025-08-31 05:50:03,687 - INFO - Processing comprehensive batch 93/142
+2025-08-31 05:50:06,079 - INFO - Processing comprehensive batch 94/142
+2025-08-31 05:50:08,470 - INFO - Processing comprehensive batch 95/142
+2025-08-31 05:50:10,862 - INFO - Processing comprehensive batch 96/142
+2025-08-31 05:50:13,248 - INFO - Processing comprehensive batch 97/142
+2025-08-31 05:50:15,648 - INFO - Processing comprehensive batch 98/142
+2025-08-31 05:50:18,046 - INFO - Processing comprehensive batch 99/142
+2025-08-31 05:50:20,424 - INFO - Processing comprehensive batch 100/142
+2025-08-31 05:50:22,821 - INFO - Processing comprehensive batch 101/142
+2025-08-31 05:50:25,406 - INFO - Processing comprehensive batch 102/142
+2025-08-31 05:50:27,796 - INFO - Processing comprehensive batch 103/142
+2025-08-31 05:50:30,186 - INFO - Processing comprehensive batch 104/142
+2025-08-31 05:50:32,600 - INFO - Processing comprehensive batch 105/142
+2025-08-31 05:50:34,996 - INFO - Processing comprehensive batch 106/142
+2025-08-31 05:50:37,390 - INFO - Processing comprehensive batch 107/142
+2025-08-31 05:50:39,790 - INFO - Processing comprehensive batch 108/142
+2025-08-31 05:50:42,286 - INFO - Processing comprehensive batch 109/142
+2025-08-31 05:50:44,678 - INFO - Processing comprehensive batch 110/142
+2025-08-31 05:50:47,119 - INFO - Processing comprehensive batch 111/142
+2025-08-31 05:50:49,515 - INFO - Processing comprehensive batch 112/142
+2025-08-31 05:50:51,907 - INFO - Processing comprehensive batch 113/142
+2025-08-31 05:50:54,306 - INFO - Processing comprehensive batch 114/142
+2025-08-31 05:50:56,761 - INFO - Processing comprehensive batch 115/142
+2025-08-31 05:50:59,232 - INFO - Processing comprehensive batch 116/142
+2025-08-31 05:51:01,632 - INFO - Processing comprehensive batch 117/142
+2025-08-31 05:51:04,034 - INFO - Processing comprehensive batch 118/142
+2025-08-31 05:51:06,444 - INFO - Processing comprehensive batch 119/142
+2025-08-31 05:51:08,835 - INFO - Processing comprehensive batch 120/142
+2025-08-31 05:51:11,231 - INFO - Processing comprehensive batch 121/142
+2025-08-31 05:51:13,623 - INFO - Processing comprehensive batch 122/142
+2025-08-31 05:51:16,017 - INFO - Processing comprehensive batch 123/142
+2025-08-31 05:51:18,435 - INFO - Processing comprehensive batch 124/142
+2025-08-31 05:51:20,897 - INFO - Processing comprehensive batch 125/142
+2025-08-31 05:51:23,322 - INFO - Processing comprehensive batch 126/142
+2025-08-31 05:51:25,803 - INFO - Processing comprehensive batch 127/142
+2025-08-31 05:51:28,215 - INFO - Processing comprehensive batch 128/142
+2025-08-31 05:51:30,594 - INFO - Processing comprehensive batch 129/142
+2025-08-31 05:51:33,039 - INFO - Processing comprehensive batch 130/142
+2025-08-31 05:51:35,531 - INFO - Processing comprehensive batch 131/142
+2025-08-31 05:51:37,964 - INFO - Processing comprehensive batch 132/142
+2025-08-31 05:51:40,459 - INFO - Processing comprehensive batch 133/142
+2025-08-31 05:51:43,109 - INFO - Processing comprehensive batch 134/142
+2025-08-31 05:51:45,531 - INFO - Processing comprehensive batch 135/142
+2025-08-31 05:51:47,993 - INFO - Processing comprehensive batch 136/142
+2025-08-31 05:51:50,411 - INFO - Processing comprehensive batch 137/142
+2025-08-31 05:51:52,830 - INFO - Processing comprehensive batch 138/142
+2025-08-31 05:51:55,323 - INFO - Processing comprehensive batch 139/142
+2025-08-31 05:51:57,723 - INFO - Processing comprehensive batch 140/142
+2025-08-31 05:52:00,159 - INFO - Processing comprehensive batch 141/142
+2025-08-31 05:52:02,556 - INFO - Processing comprehensive batch 142/142
+2025-08-31 05:52:04,958 - INFO - Comprehensive scraping completed in 353.95 seconds
+2025-08-31 05:52:04,959 - INFO - Average time per candidate: 0.50 seconds
+2025-08-31 05:52:05,030 - INFO - Saved 709 comprehensive candidates to full_candidates.json
+2025-08-31 05:52:05,050 - INFO - Saved 709 candidates to full_candidates.csv

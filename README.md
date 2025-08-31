@@ -1,142 +1,144 @@
-# Blog Backend API
+# Vakansiya.biz Candidate Scraper
 
-A RESTful API backend for a blog application built with Django and Django REST Framework.
+A comprehensive Python scraper to collect complete candidate data from vakansiya.biz, including both general listing information and detailed candidate profiles with full structured data extraction.
 
 ## Features
 
-- **Post Management**: Create, read, update, and delete blog posts
-- **Category System**: Organize posts by categories
-- **User Authentication**: Secure API endpoints with user authentication
-- **RESTful Interface**: Well-structured API following REST principles
-
-## Tech Stack
-
-- **Django 5.1.7**: High-level Python web framework
-- **Django REST Framework 3.15.2**: Toolkit for building Web APIs
-- **SQLite**: Database for development (can be configured for other databases)
-- **Python 3**: Core programming language
-
-## Project Structure
-
-```
-blog_backend/
-├── api/                # API app
-│   ├── serializers.py  # JSON serialization
-│   ├── urls.py         # API endpoint routing
-│   └── views.py        # API view logic
-├── blog/               # Blog app
-│   ├── admin.py        # Admin interface configuration
-│   ├── models.py       # Database models
-│   └── migrations/     # Database migrations
-├── blog_project/       # Project settings
-│   ├── settings.py     # Django configuration
-│   ├── urls.py         # URL routing
-│   └── wsgi.py         # WSGI configuration
-├── manage.py           # Django command-line utility
-├── requirements.txt    # Project dependencies
-└── .env               # Environment variables (not tracked in git)
-```
+- 🚀 **High Performance**: Async/await with aiohttp for concurrent scraping
+- 🔍 **Comprehensive Data**: Extracts ALL structured data from candidate pages
+- 📊 **Complete Profiles**: Contact info, experience, education, skills, languages, awards
+- ⚡ **Rate Limited**: Respectful scraping with built-in delays and semaphores
+- 📁 **Multiple Formats**: Exports to both JSON and CSV
+- 🛡️ **Error Handling**: Robust error handling with detailed logging
+- 📈 **Progress Tracking**: Real-time progress updates and statistics
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/blog_backend.git
-   cd blog_backend
-   ```
-
-2. Create a virtual environment and activate it:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Create a `.env` file in the project root with the following variables:
-   ```
-   SECRET_KEY=your_secret_key_here
-   DEBUG=True
-   ALLOWED_HOSTS=localhost,127.0.0.1
-   ```
-
-5. Run migrations:
-   ```bash
-   python manage.py migrate
-   ```
-
-6. Create a superuser:
-   ```bash
-   python manage.py createsuperuser
-   ```
-
-7. Run the development server:
-   ```bash
-   python manage.py runserver
-   ```
-
-## API Endpoints
-
-- **API Root**: `/api/`
-- **Posts**: `/api/posts/`
-- **Categories**: `/api/categories/`
-- **Authentication**: `/api/auth/`
-- **Admin Panel**: `/admin/`
-
-## Usage Examples
-
-### List all posts
-```
-GET /api/posts/
-```
-
-### Get a specific post by slug
-```
-GET /api/posts/{slug}/
-```
-
-### Create a new post (authentication required)
-```
-POST /api/posts/
-```
-Request body:
-```json
-{
-  "title": "My New Post",
-  "slug": "my-new-post",
-  "body": "Content of the post...",
-  "category": 1,
-  "status": "published"
-}
-```
-
-### List all categories
-```
-GET /api/categories/
-```
-
-## Authentication
-
-The API uses Django REST Framework's session authentication. To authenticate:
-
-1. Visit `/api/auth/login/` and log in with your credentials
-2. Make authenticated requests after logging in
-
-## Development
-
-### Running Tests
+1. Install required dependencies:
 ```bash
-python manage.py test
+pip install -r requirements.txt
 ```
 
-### Creating New Migrations
+## Usage
+
+### 🚀 Quick Start
+Extract ALL structured data from candidate pages:
 ```bash
-python manage.py makemigrations
+python run_scraper.py
 ```
 
-## License
+### 📊 Programmatic Usage
+```python
+import asyncio
+from vakansiya_scraper import ComprehensiveVakansiyaScraper
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+async def main():
+    scraper = ComprehensiveVakansiyaScraper(max_concurrent=5)
+    
+    # Test with first 5 candidates
+    candidates = await scraper.scrape_all_candidates(limit=5)
+    
+    # Scrape all candidates with full details
+    candidates = await scraper.scrape_all_candidates()
+    
+    # Save data
+    await scraper.save_to_json(candidates, 'candidates.json')
+    scraper.save_to_csv(candidates, 'candidates.csv')
+
+asyncio.run(main())
+```
+
+## 📊 Data Structure
+
+### 🔢 Basic API Data (from general listing)
+- `id`: Unique candidate ID
+- `user_id`: User ID 
+- `slug`: URL slug
+- `firstname`, `lastname`: Full name
+- `age`: Age
+- `title`: Current job title
+- `industry`: Industry details (Az/En/Ru)
+- `city`, `country`: Location details
+- `expected_salary`: Salary expectations
+- `is_premium`: Premium profile status
+
+### 📋 Comprehensive Page Data (extracted from HTML)
+- 📝 **`summary`**: Professional summary/headline
+- 📞 **`contact_info`**: Complete contact details
+  - Address, email, phone, marital status
+  - LinkedIn, GitHub, Skype profiles
+- 💼 **`experience`**: Detailed work history
+  - Job titles, companies, locations
+  - Start/end dates, descriptions
+- 🎓 **`education`**: Education background
+  - Programs, institutions, locations
+  - Degree levels, dates
+- 🏆 **`awards_certificates`**: Awards & certifications
+  - Titles, issuers, descriptions, dates
+- 🛠️ **`skills`**: Technical & soft skills
+  - Skill names, proficiency levels, experience years
+- 🌐 **`languages`**: Language proficiencies
+  - Languages with proficiency levels
+
+## Rate Limiting
+
+The scraper includes built-in rate limiting:
+- 1 second delay between API requests
+- 2 second delay between individual page scrapes
+
+## Output Files
+
+- `candidates.csv`: Flattened data suitable for spreadsheet analysis
+- `candidates.json`: Full structured data including nested information
+- `scraper.log`: Detailed logging information
+
+## Example URLs
+
+- General API: `https://api.vakansiya.biz/api/v1/resumes/search`
+- Individual page: `https://vakansiya.biz/az/cv/{candidate_id}/{slug}`
+
+## 🎉 Production Results
+
+**Real Full Scrape Results (709 candidates in 5.9 minutes):**
+
+```
+🎉 Scraping completed!
+⏱️  Time taken: 5.9 minutes
+📊 Total candidates: 709
+📁 Files saved: full_candidates.json, full_candidates.csv
+
+📈 Detailed Statistics:
+   👤 Contact Information:
+      📧 With email: 321 (45.3%)
+      📞 With phone: 290 (40.9%)
+      🏠 With address: 709 (100.0%)
+   💼 Professional Data:
+      📝 With summary: 588 (82.9%)
+      🏢 With experience: 709 (100.0%)
+      🎓 With education: 709 (100.0%)
+      🛠️  With skills: 709 (100.0%)
+      🌐 With languages: 709 (100.0%)
+      🏆 With awards: 345 (48.7%)
+   📊 Total Entries:
+      🏢 Experience entries: 1646
+      🎓 Education entries: 964
+      🛠️  Skills entries: 2269
+      🌐 Language entries: 1857
+      🏆 Awards/Certificates: 694
+```
+
+**Performance Stats:**
+- ⚡ **0.5 seconds** average per candidate
+- 📊 **100%** success rate for all structured data
+- 🔥 **1,646 work experience** entries extracted
+- 🎓 **964 education** records collected
+- 🛠️ **2,269 skills** with proficiency levels
+- 🌐 **1,857 language** proficiency records
+- 🏆 **694 awards/certificates** captured
+
+## Notes
+
+- The scraper respects the website's structure and includes appropriate delays
+- All contact information and detailed data is extracted from the HTML structure
+- Error handling ensures the scraper continues even if individual pages fail
+- **Proven at scale**: Successfully scraped all 709 candidates with comprehensive data
